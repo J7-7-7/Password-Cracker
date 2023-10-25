@@ -1,6 +1,10 @@
 # Password_Analyzer_and_Cracker
 Cracking passwords from popular data breches for educational purpose.
 
+Programming language used: Julia
+While both Julia and Python are powerful programming languages, there are specific areas where Julia has advantages, especially in the context of computationally intensive operations like hashing and decryption.
+
+
 # Part 1: Yahoo
 Upon reviewing the file, it's evident that it's a MySQL database dump with passwords displayed in clear text, without any encryption or hashing. To extract these plaintext passwords, I carried out the following procedure:
 By dividing the content at the ':' delimiter, I was able to identify the password at the second position. Since the passwords were not encrypted, the extraction was relatively straightforward.
